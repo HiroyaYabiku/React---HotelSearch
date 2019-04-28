@@ -14,12 +14,12 @@ const App = () => (
   <Router>
     <div className="app">
       <ul className="navi">
-        <li><Link to="/">ホテル検索</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/React---HotelSearch">ホテル検索</Link></li>
+        <li><Link to="/React---HotelSearch/about">About</Link></li>
       </ul>
       <Switch>
-        <Route exact path="/" component={SearchPage} />
-        <Route exact path="/about" component={AboutPage} />
+        <Route exact path="/React---HotelSearch" component={SearchPage} />
+        <Route exact path="/React---HotelSearch/about" component={AboutPage} />
       </Switch>
     </div>
   </Router>
