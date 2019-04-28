@@ -1,0 +1,120 @@
+body {
+  color: #444;
+  margin: 0; }
+
+ul {
+  margin: 0; }
+
+.app {
+  width: 1000px;
+  margin: 40px auto; }
+
+.navi {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 70px;
+  text-align: center;
+  list-style: none; }
+  .navi li {
+    margin: 0 20px; }
+  .navi a {
+    display: block;
+    position: relative;
+    padding: 5px 0;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none; }
+    .navi a:after {
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #000;
+      content: "";
+      transform-origin: 100% 50% 0;
+      transform: scale(0, 1);
+      transition: transform 0.35s cubic-bezier(0.215, 0.61, 0.355, 1) 0s; }
+    .navi a:hover:after {
+      transform-origin: 0 50% 0;
+      transform: scaleX(1);
+      transition: transform 0.45s cubic-bezier(0.215, 0.61, 0.355, 1) 0s; }
+
+.mainTitle {
+  margin-top: 0;
+  text-align: center; }
+
+.mainLead__caution {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px; }
+
+.mainLead {
+  max-width: 400px;
+  margin: 50px auto 0; }
+
+.result-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.result-right {
+  margin-left: 20px; }
+
+.result-title {
+  width: 100%;
+  margin: 70px 0 30px;
+  text-align: center; }
+
+.search-form {
+  text-align: center;
+  margin-bottom: 40px; }
+
+.place-input {
+  font-size: 24px;
+  padding: 5px 3px 6px; }
+
+.submit-button {
+  -webkit-appearance: none;
+  font-size: 24px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px; }
+
+.geocode-result {
+  padding: 0;
+  text-align: left;
+  list-style: none; }
+  .geocode-result li {
+    line-height: 1.7;
+    letter-spacing: .1em;
+    font-size: 14px; }
+
+.map {
+  width: 350px;
+  height: 250px; }
+
+.hotel-price-column {
+  min-width: 70px; }
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse; }
+  .result-table th {
+    padding: 10px;
+    border: 2px solid #fff;
+    background: #eee;
+    font-size: 16px; }
+  .result-table td {
+    padding: 10px;
+    border: 2px solid #eee; }
+
+.hotel-name {
+  max-width: 400px;
+  padding: 10px;
+  font-size: 14px; }
+
+.hotels-clikable-th {
+  width: 80px;
+  color: blue;
+  cursor: pointer; }
