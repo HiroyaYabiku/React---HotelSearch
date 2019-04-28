@@ -1,4 +1,4 @@
-# React - TodoList
+# React - HotelSearch
 
 ## Build Setup
 <pre>
