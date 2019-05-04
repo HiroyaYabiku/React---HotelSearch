@@ -60,7 +60,7 @@ class SearchPage extends Component {
 
   handlePlaceSubmit(e) {
     e.preventDefault();
-    this.props.history.push('/?place=' + this.state.place );
+    this.props.history.push('/React---HotelSearch/?place=' + this.state.place );
     this.startSearch();
   }
 
